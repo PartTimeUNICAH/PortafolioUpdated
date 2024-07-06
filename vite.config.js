@@ -6,7 +6,7 @@ import htmlPurge from 'vite-plugin-purgecss';
 import handlebars from 'vite-plugin-handlebars';
 
 export default defineConfig({
-    base: "/PortafolioUpdated/",
+    base: "/Portafolio_Actualizado/",
     appType: 'mpa',
     build: {
         rollupOptions: {
