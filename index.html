@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Proyectos</title>
+    <link rel="stylesheet" href="less/main.less" />
+    <script src="js/app.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Portafolio de Manuel Barahona</h1>
+      <img src="imgs/Me.jpg" alt="Foto de Perfil" />
+      <nav>
+        <ul>
+          <li><a href="#aboutme">Sobre Mi</a></li>
+          <li><a href="#projects">Mis Proyectos</a></li>
+          <li><a href="#contact">Contactame</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="aboutme">
+        <h2>Sobre Mi</h2>
+        <p>
+          Soy una persona muy mecanica. Al tener una idea clara de lo que se
+          necesita, puedo trabajar muy rapido y con bastante eficiencia. No soy
+          el mejor creando ideas o innovando pero lo puedo hacer con suficiente
+          tiempo y planeacion. Trabajo bien en equipo, usualmente me suelo
+          inclinar un poco al liderazgo ya que me gusta hacer las cosas a mi
+          manera, pero me puedo adaptar facilmente a lo que se requiera en un
+          proyecto.
+        </p>
+        <p>
+          En cuanto a programacion, tengo conocimiento intermedio en C++, C# y
+          Java. Estoy trabajando en mejorar mis habilidades con Javascript, HTML
+          y CSS. He trabajado un poco con Node.js y Python. He trabajado
+          haciendo bots de musica en Discord pero sigo aprendiendo para poder
+          perfeccionarlo. Considero que soy bueno pero tengo muchas areas en las
+          que puedo mejorar, y deseo trabajar en ello.
+        </p>
+        <section id="table">
+          <h3>Educación</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Grado</th>
+                <th>Institución</th>
+                <th>Título</th>
+                <th>Año</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Primaria 1</td>
+                <td>Rainbow of Wisdom School</td>
+                <td>Primaria</td>
+                <td>2006-2016</td>
+              </tr>
+              <tr>
+                <td>Primaria 2</td>
+                <td>Franciscan School</td>
+                <td>Primaria</td>
+                <td>2016-2018</td>
+              </tr>
+              <tr>
+                <td>Secundaria</td>
+                <td>Rainbow of Wisdom School</td>
+                <td>Secundaria</td>
+                <td>2018-2021</td>
+              </tr>
+              <tr>
+                <td>Universidad</td>
+                <td>Universidad Catolica de Honduras</td>
+                <td>Ingeniería en Sistemas</td>
+                <td>2025</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">
+                  Rainbow of Wisdom School 2006-2016 y 2018-2021, Primaria y
+                  Secundaria. Franciscan School 2016-2018 Primaria. Universidad
+                  Catolica de Honduras 2021-2025, Ingenieria en Sistemas.
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+      </section>
+      <section id="projects">
+        <h2>Proyectos Realizados</h2>
+        <section>
+          <section>
+            <div class="card">
+              <img src="imgs/ecommerce.png" alt="Imagen de E-Commerce" />
+              <h4>Prototipo de Comercio Electronico</h4>
+              <p>
+                Un proyecto de aplicacion que realice fue una aplicacion de C#
+                la cual simulaba como se veria una tienda en linea estilo Amazon
+                en forma de aplicacion de escritorio. Esta aplicacion tambien
+                contaba con conexion a una base de datos de SQL para registrar
+                inventarios, ventas, etc.
+              </p>
+            </div>
+            <div class="card">
+              <img src="imgs/logo.png" alt="Logo de Cafe Honduras" />
+              <h4>Cafe Honduras</h4>
+              <p>
+                Un proyecto realizado en grupo en el primer periodo del 2024,
+                Cafe Honduras tenia como vision ser un puente entre los
+                internautas y las empresas cafetaleras Hondureñas. Aqui se
+                publicitaban distintas empresas del cafe para que se dieran a
+                conocer en todo internet.
+              </p>
+            </div>
+          </section>
+        </section>
+      </section>
+      <section id="contact">
+        <h2>Contactame</h2>
+        <section>
+          <form action="index.html" method="post">
+            <label for="nombre"
+              >Nombre:
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                required
+                placeholder="Nombre Completo"
+              />
+            </label>
+            <label for="correo"
+              >Correo:
+              <input
+                type="email"
+                name="correo"
+                id="correo"
+                required
+                autocapitalize="off"
+                autocomplete="email"
+              />
+            </label>
+            <label for="birthdate">
+              Fecha de Nacimiento:
+              <input
+                type="date"
+                name="birthdate"
+                id="birthdate"
+                required
+                autocomplete="bday"
+              />
+            </label>
+            <label for="mensaje"
+              >Mensaje:
+              <textarea name="mensaje" id="mensaje" required></textarea>
+            </label>
+            <br />
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <p>Manuel Barahona &copy; 2024</p>
+      </section>
+      <section>
+        <ol>
+          <li>
+            <a
+              href="https://www.instagram.com/part_timewarrior/"
+              target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://discord.com/" target="_blank"
+              >Discord - parttimewarrior_</a
+            >
+          </li>
+          <li>
+            <a href="https://slack.com/" target="_blank"
+              >Slack - MANUEL JOSÉ BARAHONA ROSALES</a
+            >
+          </li>
+        </ol>
+      </section>
+      <section>
+        <nav>
+          <ul>
+            <li><a href="#aboutme">Sobre Mi</a></li>
+            <li><a href="#projects">Mis Proyectos</a></li>
+            <li><a href="#contact">Contactame</a></li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+  </body>
+</html>
