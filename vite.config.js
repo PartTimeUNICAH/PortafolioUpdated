@@ -20,8 +20,12 @@ export default defineConfig({
             ),
         },
     },
+    css: {
+        preprocessorOptions: {
+            less: {}
+    },
     plugins: [
         htmlPurge({}),
         ViteMinifyPlugin({}),
     ]
-})
+}})
